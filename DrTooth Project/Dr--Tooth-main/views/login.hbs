@@ -1,0 +1,94 @@
+
+<style>
+
+  body{
+    background-image:url("/login.jpeg");
+  }
+
+  .login{
+
+
+ 
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+
+ 
+
+
+  }
+  #button{
+
+
+margin-left: 45.5vw;
+
+  }
+
+  #loginContainer{
+
+  background-color: rgba(6, 152, 225, 0.748);
+ margin-top: 20vh;
+ padding-bottom:2%;
+
+  }
+  .input{
+     width: 200px;
+     height:25px;
+     border: 0.3vh solid rgba(23, 154, 220, 0.598);
+     
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  p{
+    margin-top: -1%;
+  }
+</style>
+<head>
+   <script src="https://kit.fontawesome.com/cde8601e7e.js" crossorigin="anonymous"></script>
+</head>
+</head>
+<div id="loginContainer">
+
+<form action="/dashboard" method="post">
+ <div class="login">
+
+    <h1>Dr.Tooth</h1>
+   <p><b>Dentistry is not expensive, Neglect is</b></p> 
+
+    <label><i class="fa-solid fa-user"></i> </label><br>
+    
+    <input
+      class="input"
+      type="text"
+      id="username"
+      name="username"
+      placeholder="Username"
+      required
+      autocomplete="off"
+    />
+
+    <br />
+
+    <label><i class="fa-solid fa-unlock"></i></label><br>
+    <input
+      class="input"
+      type="password"
+      id="password"
+      name="password"
+      placeholder="Password"
+      required
+      autocomplete="off"
+    />
+
+    <br />
+</div>
+<div id="button">
+    <input type="submit" id="submit"/>
+    <button><a href="/signup">SignUp</a></button>
+</div>
+</form>
+</div>
+
+
